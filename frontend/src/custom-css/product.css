@@ -1,0 +1,32 @@
+/* Product.css */
+.product-card {
+    border: 1px solid #ddd;
+    transition: transform 0.2s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+
+  .product-card-body a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .product-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .product-rating {
+    color: chocolate;
+    font-size: 1rem;
+  }
+  
+  .product-price {
+    font-size: 1.5rem;
+    color: #28a745;
+    font-weight: bold;
+  }
+  
